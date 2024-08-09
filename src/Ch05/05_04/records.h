@@ -55,5 +55,7 @@ public:
 
     std::string get_student_name(int) const;
     unsigned char get_course_credits(int) const;
+    std::string get_course_name(int) const;
     float get_GPA(int) const;
+    void report_card(int);
 };
