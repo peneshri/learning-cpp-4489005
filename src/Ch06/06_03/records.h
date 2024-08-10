@@ -58,4 +58,5 @@ public:
     float get_GPA(int) const;
     std::string get_course_name(int) const;
     void report_card(int);
+    void all_report_cards();
 };
